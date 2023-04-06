@@ -1,3 +1,31 @@
+# FarmxCuan
+
+Buy, Sell and Invest in one stop. Provide best poultry product for our customers.
+
+## Design
+
+### Use Case
+
+![image](./.docs/Use%20Case%20FarmxCuan.jpg)
+
+### Activity Diagram
+
+![image](./.docs/Activity%20Diagram%20FarmxCuan.jpg)
+
+### Sequence Diagram
+
+![image](./.docs/Sequence%20Diagram%20FarmxCuan.jpg)
+
+### Class Diagram
+
+![image](./.docs/Class%20Diagram%20FarmxCuan.jpg)
+
+## License
+
+MIT License
+
+## Framework
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
