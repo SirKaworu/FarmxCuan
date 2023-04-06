@@ -1,9 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T04:40:15.235Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.4" etag="2IiyawuYLQAT_ojAsukv" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T04:52:06.626Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="6IUS4ttdBxDE00qxnLr5" version="21.1.4" type="github">
   <diagram name="Page-1" id="uelYtMR-G7cMFD8WcbiM">
-    <mxGraphModel>
+    <mxGraphModel dx="819" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dnuexH79V0-ptsXTC9Re-8" value="Farmer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="dnuexH79V0-ptsXTC9Re-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="dnuexH79V0-ptsXTC9Re-8">
+          <mxGeometry x="45" y="40" width="10" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="dnuexH79V0-ptsXTC9Re-9" value="Investor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="dnuexH79V0-ptsXTC9Re-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="dnuexH79V0-ptsXTC9Re-9">
+          <mxGeometry x="45" y="40" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dnuexH79V0-ptsXTC9Re-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="dnuexH79V0-ptsXTC9Re-9">
+          <mxGeometry x="45" y="270" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dnuexH79V0-ptsXTC9Re-10" value="Distributor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="680" y="120" width="100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="dnuexH79V0-ptsXTC9Re-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="dnuexH79V0-ptsXTC9Re-10">
+          <mxGeometry x="45" y="120" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dnuexH79V0-ptsXTC9Re-13" value="Add product to listing" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="175" y="183" as="sourcePoint" />
+            <mxPoint x="445" y="183" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dnuexH79V0-ptsXTC9Re-14" value="Invest to a product" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="445" y="213" as="sourcePoint" />
+            <mxPoint x="175" y="213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dnuexH79V0-ptsXTC9Re-16" value="Sell product" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="175" y="261" as="sourcePoint" />
+            <mxPoint x="725" y="261" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dnuexH79V0-ptsXTC9Re-17" value="Brought product" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="725" y="289" as="sourcePoint" />
+            <mxPoint x="175" y="289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dnuexH79V0-ptsXTC9Re-19" value="Confirm transaction" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1" target="dnuexH79V0-ptsXTC9Re-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="175" y="319" as="sourcePoint" />
+            <mxPoint x="720" y="319" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dnuexH79V0-ptsXTC9Re-20" value="Pay bill" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="725" y="346" as="sourcePoint" />
+            <mxPoint x="175" y="346" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dnuexH79V0-ptsXTC9Re-21" value="Delivery product" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1" target="dnuexH79V0-ptsXTC9Re-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="175" y="373" as="sourcePoint" />
+            <mxPoint x="660" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dnuexH79V0-ptsXTC9Re-23" value="Profit sharing" style="endArrow=open;endFill=1;endSize=6;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="175" y="411" as="sourcePoint" />
+            <mxPoint x="445" y="411" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
