@@ -1,0 +1,48 @@
+{
+    "name": "App Access Control",
+    "version": "1.0",
+    "data": [
+        {
+            "path": "/dashboard",
+            "label": "Dashboard",
+            "role": ["admin", "farmer", "investor", "distributor"],
+            "icon": "DashboardIcon"
+        },
+        {
+            "path": "/portfolio",
+            "label": "Portfolio",
+            "role": ["farmer", "investor"],
+            "icon": "AccountBalanceWalletIcon"
+        },
+        {
+            "path": "/transaction",
+            "label": "Transaction",
+            "role": ["farmer", "distributor"],
+            "icon": "PaidIcon"
+        },
+        {
+            "path": "/market",
+            "label": "Market",
+            "role": ["investor", "distributor"],
+            "icon": "PollIcon"
+        },
+        {
+            "path": "/news",
+            "label": "News",
+            "role": ["investor", "distributor"],
+            "icon": "ArticleIcon"
+        },
+        {
+            "path": "/products",
+            "label": "Products",
+            "role": ["farmer"],
+            "icon": "InventoryIcon"
+        },
+        {
+            "path": "/monitoring",
+            "label": "Monitoring",
+            "role": ["farmer"],
+            "icon": "MonitorHeartIcon"
+        }
+    ]
+}

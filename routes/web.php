@@ -15,10 +15,11 @@ use Inertia\Inertia;
 */
 
 Route::get('', function() {
-    return Inertia::render('Home');
+    return Inertia::render('Home/Home');
 });
 
 require __DIR__.'/web/auth.php';
+require __DIR__.'/web/dashboard.php';
 
 
 

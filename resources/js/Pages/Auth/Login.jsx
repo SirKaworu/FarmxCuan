@@ -1,16 +1,18 @@
+import { Head } from "@inertiajs/react";
 import {
     Button,
     CssBaseline,
     CssVarsProvider,
     Grid,
     Input,
-    Link,
+    Link
 } from "@mui/joy";
 import React from "react";
 
 export default function Login() {
     return (
         <React.Fragment>
+            <Head title="Login" />
             <CssBaseline />
             <CssVarsProvider>
                 <Grid
@@ -74,6 +76,15 @@ export default function Login() {
                             />
                             <div className="my-3 flex flex-col justify-center">
                                 <Button
+                                    onClick={() => {
+                                        let role = prompt("Enter role")
+                                        if (!["admin", "investor", "distributor", "farmer"].includes(role)) {
+                                            alert("Invalid role")
+                                            return
+                                        }
+                                        localStorage.setItem("role", role)
+                                        window.location.href = "/dashboard";
+                                    }}
                                     variant="solid"
                                     type="submit"
                                     sx={{

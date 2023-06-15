@@ -1,10 +1,11 @@
+import { Head } from "@inertiajs/react";
 import {
     Button,
     CssBaseline,
     CssVarsProvider,
     Grid,
     Input,
-    Link,
+    Link
 } from "@mui/joy";
 import React from "react";
 import { A11y, Autoplay, Navigation, Pagination } from "swiper";
@@ -17,6 +18,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 export default function Register() {
     return (
         <React.Fragment>
+            <Head title="Register" />
             <CssBaseline />
             <CssVarsProvider>
                 <Grid container sx={{ height: "100vh" }}>
